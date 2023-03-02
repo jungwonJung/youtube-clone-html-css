@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Clone(HTML,CSS Practice)</title>
+
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+    <link rel="stylesheet" href="styles/video.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img
+          class="hamburger-menu"
+          src="assets/icons/hamburger-menu.svg"
+          alt=""
+        />
+        <img class="youtube-logo" src="assets/icons/youtube-logo.svg" alt="" />
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="assets/icons/search.svg" alt="" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img
+            src="assets/icons/voice-search-icon.svg"
+            alt=""
+            class="voice-search-icon"
+          />
+          <div class="tooltip">Search with Yout Voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="assets/icons/upload.svg" alt="" />
+          <div class="tooltip">Create</div>
+        </div>
+        <img
+          src="assets/icons/youtube-apps.svg"
+          alt=""
+          class="youtube-apps-icon"
+        />
+        <div class="notification-icon-container">
+          <img
+            src="assets/icons/notifications.svg"
+            alt=""
+            class="notifications-icon"
+          />
+          <div class="notifications-count">1</div>
+        </div>
+        <img
+          src="assets/images/avatars/avatar-1.png"
+          alt=""
+          class="current-user-picture"
+        />
+      </div>
+    </header>
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="assets/icons/home.svg" alt="" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="assets/icons/explore.svg" alt="" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="assets/icons/subscriptions.svg" alt="" />
+        <div>subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="assets/icons/originals.svg" alt="" />
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="assets/icons/youtube-music.svg" alt="" />
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="assets/icons/library.svg" alt="" />
+        <div>Library</div>
+      </div>
+    </nav>
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              src="assets/images/thumbnails/thumbnail-1.jpeg"
+              alt=""
+              class="thumbnail"
+            />
+            <div class="video-time">8:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                src="assets/images/avatars/avatar-1.png"
+                alt=""
+                class="profile-picture"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">Great View(1)</p>
+              <p class="video-author">RandomId(1)</p>
+              <p class="video-stats">3 views &#183; 6 mothns ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              src="assets/images/thumbnails/thumbnail-2.jpeg"
+              alt=""
+              class="thumbnail"
+            />
+            <div class="video-time">7:10</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                src="assets/images/avatars/avatar-1.png"
+                alt=""
+                class="profile-picture"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">Great View(2)</p>
+              <p class="video-author">RandomId(2)</p>
+              <p class="video-stats">15 views &#183; 3 mothns ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              src="assets/images/thumbnails/thumbnail-3.jpeg"
+              alt=""
+              class="thumbnail"
+            />
+            <div class="video-time">10:11</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                src="assets/images/avatars/avatar-1.png"
+                alt=""
+                class="profile-picture"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">Great View(3)</p>
+              <p class="video-author">RandomId(1)</p>
+              <p class="video-stats">145 views &#183; 11 mothns ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              src="assets/images/thumbnails/thumbnail-4.jpeg"
+              alt=""
+              class="thumbnail"
+            />
+            <div class="video-time">3:57</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                src="assets/images/avatars/avatar-1.png"
+                alt=""
+                class="profile-picture"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">Great View(4)</p>
+              <p class="video-author">RandomId(1)</p>
+              <p class="video-stats">87 views &#183; 1 years ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              src="assets/images/thumbnails/thumbnail-5.jpeg"
+              alt=""
+              class="thumbnail"
+            />
+            <div class="video-time">16:52</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                src="assets/images/avatars/avatar-1.png"
+                alt=""
+                class="profile-picture"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">Great View(5)</p>
+              <p class="video-author">RandomId(1)</p>
+              <p class="video-stats">18,932 views &#183; 2 mothns ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              src="assets/images/thumbnails/thumbnail-6.jpeg"
+              alt=""
+              class="thumbnail"
+            />
+            <div class="video-time">18:08</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                src="assets/images/avatars/avatar-1.png"
+                alt=""
+                class="profile-picture"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">Great View(6)</p>
+              <p class="video-author">RandomId(1)</p>
+              <p class="video-stats">1,888 views &#183; 1 mothns ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              src="assets/images/thumbnails/thumbnail-7.jpeg"
+              alt=""
+              class="thumbnail"
+            />
+            <div class="video-time">2:11</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                src="assets/images/avatars/avatar-1.png"
+                alt=""
+                class="profile-picture"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">Great View(7)</p>
+              <p class="video-author">RandomId(1)</p>
+              <p class="video-stats">199 views &#183; 8 mothns ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              src="assets/images/thumbnails/thumbnail-8.jpeg"
+              alt=""
+              class="thumbnail"
+            />
+            <div class="video-time">1:37</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                src="assets/images/avatars/avatar-1.png"
+                alt=""
+                class="profile-picture"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">Great View(8)</p>
+              <p class="video-author">RandomId(1)</p>
+              <p class="video-stats">1,567,234 views &#183; 2 years ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
